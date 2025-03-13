@@ -164,6 +164,7 @@ strong {
 }
 
 
+
 /*---------------------------------------
   SECTION TITLE               
 -----------------------------------------*/
@@ -227,6 +228,16 @@ strong {
   to { transform: scale(1.2); }
 }
 
+.header{
+  text-align: center;
+}
+.top image 
+{
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  object-fit: cover; /* Ensures image covers without distortion */
+  display: block;
+}
 
 /*---------------------------------------
   IMAGE HOVER               
@@ -296,7 +307,7 @@ strong {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   z-index: 9;
   right: 0;
   left: 0;

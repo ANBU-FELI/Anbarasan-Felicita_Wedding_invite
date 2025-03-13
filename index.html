@@ -36,6 +36,24 @@ https://www.tooplate.com/view/2131-wedding-lite
 Free Bootstrap 5 HTML Template
 
 -->
+<script>
+  function countdown() {
+      // Set target date (YYYY, MM-1, DD)
+      let targetDate = new Date(2025, 05, 11); // Dec 25, 2024
+      let today = new Date();
+
+      // Calculate the difference in milliseconds
+      let difference = targetDate - today;
+
+      // Convert milliseconds to days
+      let daysLeft = Math.ceil(difference / (1000 * 60 * 60 * 24));
+
+      // Display the result
+      document.getElementById("countdown").innerText = daysLeft > 0 ? daysLeft : "The event has passed!";
+  }
+
+  window.onload = countdown;
+  </script>
   </head>
 
   <body>
@@ -58,6 +76,18 @@ Free Bootstrap 5 HTML Template
         </span>
       </div>
     </section>
+    <section class="header">
+      <div class="top image" >                
+        <img src="images/15.png"  alt="Top Image">  
+      </div>
+      <div class="headline">
+        <h1>ANBARASAN WEDS FELICITA</h1>
+        <h3>May 11th May 11, 2025 • Dharmapuri, Tamil Nadu, India</h3>
+        <h3 id="countdown"><h3> days to go</h3></h3>
+      </div>   
+
+    </section>   
+   
 
     <nav class="navbar navbar-expand-lg">
       <div class="container">
@@ -66,7 +96,7 @@ Free Bootstrap 5 HTML Template
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          aria-controls="navbarNav" 
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -151,40 +181,7 @@ Free Bootstrap 5 HTML Template
           </div>
         </div>
       </section>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_1">Homepage</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_2">Our Story</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_3">The Wedding</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_4">People</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_5">Gallery</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_6">Rsvp</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link click-scroll" href="#section_7">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
+      
       <section class="about-section section-padding" id="section_2">
         <div class="container">
           <div class="row">
