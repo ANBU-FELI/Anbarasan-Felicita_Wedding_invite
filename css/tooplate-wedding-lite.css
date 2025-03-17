@@ -233,23 +233,7 @@ strong {
   margin-bottom: 0%;
   padding-bottom: 0%;
 }
-@media (max-width: 768px) {
-  .responsive-section {
-      padding: 30px; /* Reduce padding for smaller screens */
-  }
-  
-  .content {
-      padding: 10px;
-  }
 
-  h2 {
-      font-size: 1.5rem;
-  }
-
-  p {
-      font-size: 1rem;
-  }
-}
 .top image 
 {
   width: 90vw; /* 100% of viewport width */
