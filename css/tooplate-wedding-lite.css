@@ -148,7 +148,7 @@ strong {
 }
 
 .section-padding {
-  padding-top: 100px;
+  padding-top: 0px;
   padding-bottom: 100px;
 }
 
@@ -789,7 +789,7 @@ strong {
   }
 
   .section-padding {
-    padding-top: 80px;
+    padding-top: 10px;
     padding-bottom: 80px;
   }
 
