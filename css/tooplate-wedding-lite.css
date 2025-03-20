@@ -228,21 +228,21 @@ strong {
   to { transform: scale(1.2); }
 }
 
-.header{
+.headline{
   text-align: center;
   margin-bottom: 0%;
   padding-bottom: 0%;
 }
 
-.top image 
+/* .top-img 
 {
-  width: 90vw; /* 100% of viewport width */
-  height: 80vh; /* 100% of viewport height */
-  object-fit: cover; /* Ensures image covers without distortion */
+  width: 90vw; 
+  height: 80vh; 
+  object-fit: cover; 
   display: block;
-  margin-bottom: 0%
+  margin-bottom: 0%;
   padding:0%;
-}
+} */
 
 /*---------------------------------------
   IMAGE HOVER               
@@ -881,6 +881,7 @@ strong {
     margin-right: 12px;
     margin-left: 12px;
   }
+  
 }
 
 @media screen and (max-width: 480px) {
@@ -906,5 +907,11 @@ strong {
 
   .hero-container {
     padding: 30px;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  .top-img {
+    padding: 0%;      
   }
 }
